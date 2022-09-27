@@ -15,8 +15,6 @@ namespace Ru1t3rl.Utilities
                                  $"To prevent any errors I have been destroyed, my parent was {gameObject.name}");
                 Destroy(this);
             }
-
-            DontDestroyOnLoad(this);
         }
     }
 }
