@@ -9,6 +9,7 @@ namespace Ru1t3rl.InventorySystem.Behaviours
     {
         [SerializeField] protected string inventoryName;
         protected InventoryItem item;
+        public InventoryItem Item => item;
 
         protected virtual void Awake()
         {
